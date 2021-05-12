@@ -1,0 +1,29 @@
+{
+  "name": "dagshub",
+  "version": "1.0.0",
+  "description": "this is Clone of Glitch Team page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dagshub.com/Yanir-R/GlitchClone.git"
+  },
+  "keywords": [
+    "Glitch",
+    "data",
+    "clone"
+  ],
+  "author": "Yanir",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,214 @@
+.body {}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.firstContianer {
+    font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
+    display: flex;
+    justify-content: center;
+    transform: skewY(-2deg);
+    left: 50%;
+    right: 50%;
+    background-color: #fac7ff;
+
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-size: cover;
+    width: 100vw;
+
+}
+
+.positionContainer {
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+    width: calc(75% - 6px);
+    margin-right: 12px;
+    /* background: green; */
+    transform: rotate(1deg)
+}
+
+.progress {
+    position: relative;
+
+}
+
+.progress .tooltipText {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.progress:hover .tooltipText {
+    visibility: visible;
+}
+
+
+.leftSide {
+    transform: skewY(1deg);
+    margin-right: 12px;
+
+}
+
+.leftsideTitle {
+    transform: skewY(-2deg);
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-size: 23px;
+    background: #fff;
+
+}
+
+.contentContainer {
+
+    display: inline-block;
+    width: 80%;
+    padding-left: 10px;
+    background-color: #f6c6b5;
+    border-radius: 5px;
+}
+
+.contentHeader {
+    color: #83ffcd;
+}
+
+.rightSide {}
+
+.imgRightSideStyle {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.donateContainer {}
+
+.donateTag {
+    font-size: smaller;
+}
+
+#buttonGiveNowStyle {
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 600;
+    line-height: 1;
+    position: relative;
+    white-space: nowrap;
+    padding: 0.375em 0.5em 0.1875em;
+    text-decoration: none;
+    color: #222;
+    background-color: #83ffcd;
+    ;
+    border: 2px solid #C3C3C3;
+    box-shadow: 4px 4px 0 #222;
+    margin-right: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.inputPosition {
+    width: 100px;
+    height: 30px;
+}
+
+
+.donateBoxforWhy {
+    background-color: #fcf3b0;
+    display: inline-block;
+    margin-left: 10px;
+    transform: rotate(-1deg);
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.inputContainer {}
+
+.inputNumber {}
+
+.secondContainer {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
+    text-align: center;
+    line-height: 1.5;
+
+
+}
+
+.secondHeaderTitle {
+    font-weight: 700;
+    font-size: 28px;
+
+}
+
+.infoSecondContainer {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 20px;
+}
+
+.betainfo {
+    font-weight: 600;
+    background-color: #fcf3b0;
+    padding: 3px;
+}
+
+.imgLeftSideStyle {
+    margin-top: 2rem;
+}
+
+.buttonContainer {
+    padding: 12px;
+
+}
+
+.buttonInfo {
+    display: inline-block;
+    border-radius: 5px;
+    font-family: "Benton Sans", Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0.375em 0.5em 0.1875em;
+    text-decoration: none;
+    color: #222;
+    background-color: #fff;
+    border: 2px solid #222;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+input:valid,
+input:in-range {
+    background: hsl(120, 50%, 90%);
+
+}
+
+input:invalid,
+input:out-of-range {
+
+    background: hsl(0, 50%, 90%);
+}
+
+input:focus+.help,
+input:invalid+.help {
+    display: inline-block;
+}
