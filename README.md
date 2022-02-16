@@ -23,7 +23,7 @@
 - [Motivation](#Motivation)
 
 ## Introduction
-This is tiny Clone that design from [Glitch Teams page](https://glitch.com/teams) in the imagination that they could have had a component of ‘donations’ on their site
+This is a tiny Clone that was designed from [Glitch Teams page](https://glitch.com/teams) in the imagination that they could have had a component of ‘donations’ on their site
 
 ## Features
 - [x] Simple Form Validations
